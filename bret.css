@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(192, 151, 231, 0.116);
+}
+
+.grid-container1{
+    display: grid;
+    grid-template: auto / 3fr 1fr;
+    padding: 5px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template: auto / 1fr 3fr;
+    padding: 5px;
+}
+
+figure{
+    border: 3px solid rgba(0, 0, 0, 0.199);
+    border-radius: 5%;
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figure > img{
+    width: 95%;
+    height: 80%;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+h2, h3, h4{
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.flex-container > h3{
+    margin-bottom: 0px;
+
+}
