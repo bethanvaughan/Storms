@@ -38,3 +38,10 @@ ul {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
+body {
+  margin-bottom: 40px;
+}
+.nav-item-home {
+  background-color: green;
+  color: white;
+}
